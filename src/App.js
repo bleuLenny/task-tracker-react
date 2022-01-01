@@ -15,7 +15,7 @@ const App = () => {
           showAdd={showAddTask}
         />
         <Routes>
-          <Route path="/task-tracker-react" exact element={<TaskFinal taskAdd={showAddTask} />} />
+          <Route path="/" exact element={<TaskFinal taskAdd={showAddTask} />} />
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
